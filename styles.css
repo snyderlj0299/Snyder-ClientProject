@@ -2,5 +2,64 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color: #EDE6D5;
 }
-
-
+.accordion{
+    cursor: pointer;
+}
+section span{
+    position: absolute;
+    left: 90%;
+    transform: rotate(180deg);
+}
+article{
+    display: none;
+}
+article.show{
+    display: block;
+}
+span.rotate{
+    transform: rotate(0);
+}
+#menu{
+    background-color: #B3C799;
+    padding: 1rem;
+    padding-top: .5rem;
+    border-radius: 25px;
+    position: relative;
+    top: 15rem;
+    text-transform: uppercase;
+    margin: .5rem;
+}
+hr {
+    width: 100%;
+    padding: .1rem;
+    background-color: black;
+ }
+ h2{
+     text-align: center;
+     position: relative;
+     top: 10rem;
+     font-weight: 200;
+     font-style: italic;
+     font-size: 1.7rem;
+ }
+h4{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+nav>a{
+    display: inline-block;
+    color: black;
+    padding: .7rem;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    top: 5rem;
+}
+nav>a:hover{
+    color: #788264;
+}
+h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
