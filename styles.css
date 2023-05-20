@@ -13,7 +13,7 @@ section span{
 article{
     display: none;
 }
-article.active{
+article.show{
     display: block;
 }
 span.rotate{
