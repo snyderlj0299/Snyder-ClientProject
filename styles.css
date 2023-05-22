@@ -183,6 +183,7 @@ section img{
     border-radius: 25px;
     opacity: 80%;
 }
+/*This should be .hr instead of # */
 #hr{
     padding: .05rem;
     background-color: gray;
